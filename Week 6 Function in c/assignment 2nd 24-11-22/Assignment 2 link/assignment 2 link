@@ -1,0 +1,131 @@
+google docs link:  https://docs.google.com/document/d/1wFv0Hv5pvqf2VGm4DG_Q6chRI4mVKFlR/edit
+
+
+Question:1
+
+
+Write a C program that will take a string  as input from you and change the cases of the characters.If the letter is capital, change it into small and if the letter is small change it into capital letter. Look at the test case and explanation for more clarification.
+									     
+Sample Input:
+hElLoWorld
+
+Sample Output:
+HeLlOwORLD
+
+Explanation:
+Here the first letter is small in the given input that's why we converted it into capital and the second letter is capital that's why we converted it into small.
+
+
+
+Question 2.
+
+int i=0;
+while(i<10)
+{
+	printf(“I am inside the loop”);
+}
+What is wrong with this block of C code? Mark the errors and fix them. 
+
+  
+
+   Question 3.    
+
+Your faculty was born in the year 1997 and he loves the digits of this number. So he is asking you to write a code where you will be given a string of digits as input and you need to find whether all the digits 1,9, and 7 is present in that string or not. Use function to solve this problem.
+[Hint: Write a function that will find a particular character in a string and call that function thrice to find each of 1,9, and 7 in the given string.]
+
+Sample Input 1:
+36892502945417835
+
+Sample Output 1:
+Yes
+
+Explanation 1:
+All 1, 9, and 7 are present in the number
+
+Sample Input:
+3689250294547835
+
+Sample Output:
+No
+
+Explanation:
+The digit 1 is missing from the input string	
+
+
+Question 4				         
+ 
+You will be given two integers n and k. First you need to print all the even numbers from 1 to n serially and then followed by those even numbers print all the odd numbers in the same range. Finally, find the k-th number in the sequence that you just printed.
+
+Sample Input:
+13 9
+
+Sample Output:
+2 4 6 8 10 12 1 3 5 7 9 11 13
+The 9th element in this sequence is 5.
+
+Explanation:
+After printing the even numbers and then all the odd numbers if we look at the sequence the 9th element in the sequence is 5.
+The 1st one is 2, the 2nd one is 4 and so on.
+
+
+
+Question 5.
+Assume that you have a function named add_three_nums() which will take three numbers as arguments. The description of the function is also given here. Just copy it and paste it in your code.
+int add_three_nums(int a, int b, int c)
+{
+	return a+b+c;
+}
+Now, write a C program where you will take only two inputs and add those two numbers using this function. You can add them directly using the + operator. You must use this function to add them, but the challenge is you are only given two inputs.
+
+
+
+Question 6
+Write a function that will take an integer as an argument and return the factorial of the integer. Then write another function that will take two integers as arguments and then return the ratio of the factorials of the first argument with the second one. You need to make two calls to the first function inside the second function to find the factorials of the numbers.
+ 
+
+
+
+Question 7
+Write a C function that will take an array of integers as an argument and return the median value of the array.			  	      
+For hints see this 
+Note - The given array will not be sorted, hence first you need to sort the given array.And calculate the median for both odd and even length arrays.
+
+
+Question 8
+Write a C program that will take a string and another number as input. Shift all the characters of the string by that numerical value. The string will consist of only small letters. Look at the explanation for more clarification.
+
+Sample Input:
+smiley
+5
+
+Sample Output:
+xrnqjd
+
+Explanation:
+Here, the first character was s and it has been shifted by 5 units, that is, s+5 = x, thus we got the character ‘x’ in the output. Similarly all the character by shifting the characters by 5 units. Take a closer look at the last character. The character was ‘y’ but after shifting it by 5 units we got ‘d’. That is because we traversed the letters in a circular fashion. After ‘y’ comes ‘z’ then ‘a’ then ‘b’ then ‘c’ and then finally ‘d’. Thus, ‘y’+5 will be ‘d’ in our program. Be careful about this case.
+
+
+
+Question 9
+Write a C program that will take a 3x3 matrix as input and then print the transpose of that matrix. For hints see this.
+
+
+
+Question 10
+Write a function that will take the mark of a student as an argument and return the grade as a character. Look at the table below to understand the grading policy.
+
+Mark Range
+Grade
+80-100
+A
+60-79
+B
+40-59
+C
+0-39
+F
+
+
+
+
+   						
