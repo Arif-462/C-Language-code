@@ -29,16 +29,16 @@ int main()
    for(int i=0; i<n; i++)
        freq[(str[i]-'A')+1]++;
 
-   int oddValue=-1,totalCharCount=0,odd=0;
+   int oddValue = -1, totalCharCount = 0, odd = 0;
    char oddChar;
 
    for(int i=1; i<=26; i++)
    {
        if(freq[i]>=1)
            totalCharCount++;
-       if(freq[i]%2!=0)
+       if(freq[i] % 2 !=0 )
        {
-           oddValue=freq[i];
+           oddValue = freq[i];
            oddChar=i+64;
            freq[i]=0;
            odd++;
